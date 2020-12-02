@@ -5,7 +5,7 @@ const Section = () => {
     const {Section} = styles;
     return ( 
         <Section>
-            DESDE SECTION
+            DESDE SECTIONasd
         </Section>
      );
 }

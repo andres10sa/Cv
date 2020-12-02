@@ -14,7 +14,6 @@ const Main = styled.main`
 `;
 const Submenu = styled.div`
   display: flex;
-  background: blue;
   width: 100%;
 `;
 const styles = {
