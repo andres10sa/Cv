@@ -13,7 +13,7 @@ const Imagen = styled.img`
 `;
 const Nav = styled.nav`
    display:flex;
-   >a{
+   >p{
      font-size:13px;
      cursor: pointer;
      margin:0 8px;

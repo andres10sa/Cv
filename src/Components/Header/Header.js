@@ -8,14 +8,14 @@ const Header = () => {
         <Header>
             <Imagen src={Logo} alt="Logo"/>
             <Nav>
-                  <a>File</a>
-                  <a>Edit</a>
-                  <a>Selection</a>
-                  <a>View</a>
-                  <a>Go</a>
-                  <a>Run</a>
-                  <a>Terminal</a>
-                  <a>Help</a>
+                  <p>File</p>
+                  <p>Edit</p>
+                  <p>Selection</p>
+                  <p>View</p>
+                  <p>Go</p>
+                  <p>Run</p>
+                  <p>Terminal</p>
+                  <p>Help</p>
 
             </Nav>
            
