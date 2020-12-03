@@ -9,10 +9,10 @@ const Aside = ({setCurrent,current}) => {
         <AsideContenedor>
             <i className={active}onClick={()=>setCurrent(!current)}></i>
             <i className="fas fa-search icon"></i>
-            <i class="fas fa-code-branch icon"></i>
-            <i class="fas fa-bug icon"></i>
+            <i className="fas fa-code-branch icon"></i>
+            <i className="fas fa-bug icon"></i>
             <i className="far fa-copy icon"></i>
-            <i class="fas fa-box icon"></i>
+            <i className="fas fa-box icon"></i>
         </AsideContenedor>
     );
 }

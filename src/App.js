@@ -1,4 +1,3 @@
-
 import Index from './Components/Index/Index';
 
 function App() {

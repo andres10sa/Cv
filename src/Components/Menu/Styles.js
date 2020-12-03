@@ -4,11 +4,11 @@ import styled from '@emotion/styled';
 const Main = styled.main`
   background-color: #191a21;   
   width:250px;
-  >.activo {
+  .activo {
     background: #21222c;
   }
 
-  >.item {
+  .item {
     text-align: center;
     display: flex;
     align-items: center;
@@ -19,33 +19,34 @@ const Main = styled.main`
       background: #21222c;
     }
 
-    > .flecha {
+     .flecha {
       font-size: 10px;
       margin-right: 10px;
       position: relative;
       top: 1px;
+      width:10px;
     }
-    > .carpeta {
+     .carpeta {
       font-size: 12px;
       margin-right: 5px;
       position: relative;
       top: 2px;
       color: #67f195;
     }
-    > .carpeta2 {
+     .carpeta2 {
       color: #45c06e;
     }
-    > .carpeta3 {
+     .carpeta3 {
       color: #2b9c51;
     }
-    > .icono {
+     .icono {
       position: absolute;
       left: 42px;
       top: 10px;
       font-size: 7px;
     }
-    > .icono2 {
-      left: 39px;
+     .icono2 {
+      left: 43px;
     }
   }
   .subitem {
@@ -122,7 +123,34 @@ const Main = styled.main`
       font-size:14px;
     }
   }
-  
+  .first-item{
+  padding: 2px 12px;
+  background: #14151b;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+   .flecha {
+      margin-right: 5px;
+      top:-1px;
+      
+    }
+    &:hover{
+      background: #14151b;
+      >.iconos-dere{
+        display:block;
+      }
+    }
+    >.iconos-dere{
+      display:none;
+    }
+    .dericon{
+      font-size:11px;
+      margin:0 6px;
+    }
+    .d1{
+      font-size:10px;
+    }
+}
 `;
 
 const styles = {

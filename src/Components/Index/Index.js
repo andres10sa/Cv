@@ -8,15 +8,29 @@ import styles from "./Styles";
 
 const Index = () => {
   const { General, Main, Submenu } = styles;
-  const [current,setCurrent]=useState(false);
+  const [current,setCurrent]=useState(true);
+  const [currentItem,setCurrentItem]=useState('');
+  const [open,setOpen]=useState([]);
+
   return (
     <General>
       <Header />
       <Main>
         <Aside setCurrent={setCurrent} current={current}/>
         <Submenu>
-          {current&&(<Menu/>)} 
-          <Section />
+          {current&&(
+          <Menu
+          currentItem={currentItem}
+          open={open}
+          setCurrentItem={setCurrentItem}
+          setOpen={setOpen}
+          />
+          )} 
+          <Section 
+          currentItem={currentItem}
+          open={open} 
+          setCurrentItem={setCurrentItem}
+          setOpen={setOpen}/>
         </Submenu>
       </Main>
       <Footer />
