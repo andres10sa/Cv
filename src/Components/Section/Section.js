@@ -18,7 +18,7 @@ const Section = ({currentItem,open, setOpen,setCurrentItem }) => {
   };
 
   return (
-    <Section>
+    <Section className='hola'>
       <div className="header-section">
         {open.map((ele,index) => (
           <div className={currentItem===ele?'openItem currentItem':'openItem'} key={index} >

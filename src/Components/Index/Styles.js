@@ -6,6 +6,10 @@ const General = styled.div`
   background-color: #21222c;
   display: flex;
   flex-direction: column;
+  overflow-y:auto;
+  &::-webkit-scrollbar {
+    display: none;
+}
 `;
 const Main = styled.main`
   display: flex;

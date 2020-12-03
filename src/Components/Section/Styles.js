@@ -3,10 +3,16 @@ import styled from '@emotion/styled';
 const Section=styled.section`
   color:#fff;
   width:100%;
- 
+  overflow-y:auto;
+  &::-webkit-scrollbar {
+    display: none;
+}
+
+
  .header-section{
   display:flex;
   width:100%;
+  margin-bottom:20px;
  }
   .openItem{
     display:flex;

@@ -1,10 +1,14 @@
 import styled from "@emotion/styled";
 
 const General = styled.div`
-  width: 60%;
+  width: 50%;
   margin: auto;
   background: #fff;
-  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.74);
+  box-shadow: 0px 0px 3px 2px rgba(255,255,255,.4);
+  padding-bottom:30px;
+  @media(max-width:768px){
+    width: 90%;
+  }
 `;
 
 const ContFoto = styled.div`
@@ -15,7 +19,7 @@ background-color: #191a21;
   justify-content: space-between;
   .foto {
     width: 150px;
-    height: 200px;
+    height: 190px;
   }
   > .datos {
 
@@ -55,18 +59,127 @@ const Perfil = styled.div`
    color:#000;
    >.presentacion{
        font-size:14px;
-       padding:15px 20px;
+       padding:15px 25px;
    }
    >.skills{
-       padding:15px 20px;
-       >.titulo{
+       padding:15px 25px;
+       display:flex;
+       flex-wrap:wrap;
+       >.sub{
+         width:50%;
+  
+         >.contIcon{
+           margin:0 6px;
+           width:60px;
+           height:60px;
+           border-radius:100%;
+           background-color: #191a21;
+           padding-top:18px;
+           padding-left:14px;
+           position: relative;
+           cursor: pointer;
+          
+           &:hover >.ic{
+            transform:translateY(-46px);
+             color: #191a21;
+           }
+           &:hover .candado{
+            transform:translateY(-46px);
+             color: #191a21;
+           }
+           &:hover .happy{
+             transform:translateY(-46px);
+             color: #191a21;
+           }
+           .ic{
+             transition:.4s all;
+           }
+           i{
+             font-size:26px;
+             color:#fff;
+             position: absolute;
+             transition:.4s all;
+           }
+         
+           .candado{
+             position: relative;
+             left:5px;
+             transition:.4s all;
+           }
+           .happy{
+            position: relative;
+             left:3px;
+             transition:.4s all;
+           }
+          
+         }
+       }
+       .titulo{
          font-size:18px;
          margin-bottom:4px;
        }
-       >.skill{
+       .skill{
            font-size:14px;
+           margin:5px 0;
        }
    
+   }
+   .sub2{
+     display:flex;
+     align-items:center;
+     
+
+   }
+   .titulo-social{
+     width:100%;
+   }
+   .nombre-red{
+    font-size:14px;
+    margin:2px 0;
+
+   }
+   .linke,.git,.what{
+     margin-left:6px;
+     cursor: pointer;
+     font-size:15px;
+     position: relative;
+   }
+   .linke{
+    color:#0e76a8;
+   }
+   .what{
+    color:#00bb2d; 
+   right:4px;
+   }
+   .c2{
+     position: relative;
+     overflow:hidden;
+     >i{
+       position:relative;
+       left:14px;
+     }
+   
+     .ch,.pel,.av{
+      left:17px;
+     }
+     &:hover >.sombra{
+       top:100%;
+     }
+     >.sombra{
+       position:absolute;
+       top:0;
+       left:0;
+       width:100%;
+       height:100%;
+       background-color:rgba(0,0,0,.4);
+        border-radius:100%; 
+       transition:.4s all;
+       
+     }
+   }
+   .subr{
+     text-align:end;
+    
    }
 `;
 
