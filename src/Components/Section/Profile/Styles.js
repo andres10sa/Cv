@@ -1,13 +1,13 @@
 import styled from "@emotion/styled";
 
 const General = styled.div`
-  width: 50%;
+  width: 65%;
   margin: auto;
   background: #fff;
   box-shadow: 0px 0px 3px 2px rgba(255,255,255,.4);
   padding-bottom:30px;
   @media(max-width:768px){
-    width: 90%;
+    width: 96%;
   }
 `;
 
@@ -68,15 +68,18 @@ const Perfil = styled.div`
        >.sub{
          width:50%;
   
-         >.contIcon{
+         .contIcon{
            margin:0 6px;
            width:60px;
            height:60px;
-           border-radius:100%;
+           border-radius:100%; 
            background-color: #191a21;
-           padding-top:18px;
-           padding-left:14px;
+           /* padding-top:18px;
+           padding-left:14px; */
            position: relative;
+           display:flex;
+           justify-content:center;
+           align-items:center;
            cursor: pointer;
           
            &:hover >.ic{
@@ -103,12 +106,10 @@ const Perfil = styled.div`
          
            .candado{
              position: relative;
-             left:5px;
              transition:.4s all;
            }
            .happy{
             position: relative;
-             left:3px;
              transition:.4s all;
            }
           
@@ -154,14 +155,7 @@ const Perfil = styled.div`
    .c2{
      position: relative;
      overflow:hidden;
-     >i{
-       position:relative;
-       left:14px;
-     }
-   
-     .ch,.pel,.av{
-      left:17px;
-     }
+    
      &:hover >.sombra{
        top:100%;
      }

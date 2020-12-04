@@ -4,6 +4,12 @@ import styled from '@emotion/styled';
 const Main = styled.main`
   background-color: #191a21;   
   width:250px;
+  small{
+    @media(max-width:768px){
+      font-size:11px;
+   }
+  }
+ 
   .activo {
     background: #21222c;
   }

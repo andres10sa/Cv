@@ -11,17 +11,26 @@ const Contenedor=styled.div`
     box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.74);
     padding:20px;
     border-radius:6px;
-   
+   @media(max-width:768px){
+     width:85%;
+     margin-right:25px;
+   }
  
 `;
 const Titulo=styled.h3`
     font-size:22px;
     margin-bottom:10px;
     text-align:center;
+    @media(max-width:768px){
+      font-size:18px;
+   }
 `;
 const Nombre=styled.p`
   font-size:14px;
   margin-bottom:5px;
+  @media(max-width:768px){
+      font-size:13px;
+   }
 `;
 const Barra=styled.div`
   background-color:#fff;
@@ -31,6 +40,10 @@ const Barra=styled.div`
   position: relative;
   cursor: pointer;
   overflow:hidden;
+  @media(max-width:768px){
+    width:90%;
+     height:17px;
+   }
 `;
 const Sombra=styled.div`
   position: absolute;
@@ -43,6 +56,9 @@ const Sombra=styled.div`
 `;
 const Tecnologia=styled.div`
   margin:15px 0;
+  @media(max-width:768px){
+    margin:5px 0;
+   }
 `;
 
 

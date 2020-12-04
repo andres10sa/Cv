@@ -4,6 +4,7 @@ const Section=styled.section`
   color:#fff;
   width:100%;
   overflow-y:auto;
+  padding-bottom:40px;
   &::-webkit-scrollbar {
     display: none;
 }
