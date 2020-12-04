@@ -26,10 +26,9 @@ const Profile = () => {
 
       <Perfil >
         <p className='presentacion'>
-          Soy desarrollador de software fullstack con dominio de los stacks de Mean y Mern. Me considero alguien sumamente autodidacta y apasionado por el
-          aprendizaje de nuevas técnicas y habilidades, lo cual me permite estar a la vanguardia del mercado.
-          Soy una persona activa, hábil, puntual, con buena actitud de trabajo y facilidad de adquirir conocimiento y
-          rápido aprendizaje, dispuesto a dar todo de mí parte para desarrollarme en cualquier ámbito laboral.
+        I'm a fullstack software developer with domain of Mean and Mern stacks.
+I consider myself very self-taught and passionate about learning new techniques and skills that allow me to be at the forefront of the market. I'm an active, skillful, punctual person.
+I've a good work attitude and facility  of acquiring knowledge and quick learning.
          </p>
         <hr />
 

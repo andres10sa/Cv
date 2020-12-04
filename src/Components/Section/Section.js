@@ -5,6 +5,7 @@ import Experience from './Experience/Experience';
 import Profile from './Profile/Profile';
 import Studies from './Studies/Studies';
 import Technologies from './Technologies/Technologies';
+import Empty from './Empty/Empty';
 import styles from "./Styles";
 
 const Section = ({currentItem,open, setOpen,setCurrentItem }) => {
@@ -47,6 +48,7 @@ const Section = ({currentItem,open, setOpen,setCurrentItem }) => {
         {currentItem==='Technologies.js'&&(<Technologies/>)}
         {currentItem==='App.js'&&(<App/>)}
         {currentItem==='App.css'&&(<Appcss/>)}
+        {!currentItem&&(<Empty/>)}
   
       </div>
 

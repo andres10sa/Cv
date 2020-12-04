@@ -14,16 +14,16 @@ const Carousel = () => {
             <small className='subtitulo-exp'>Freelance projects</small>
             
             <div className="carrousel">
-                <figure><a href="https://github.com/Cristovk/Wallet-Native"><img src={Moonbank} title="Moonbank" alt="Moonbank"/></a></figure>
-                <figure><a href="https://github.com/Lismairy-Sanchez/Nasdrovia"><img src={Nasdrovia} title="Nasdrovia" alt="Nasdrovia"/></a></figure>
-                <figure><a href="https://github.com/andres10sa/Fenix"><img src={Fenix} title="Fenix" alt="Fenix"/></a></figure>
-                <figure><a href="https://github.com/Cristovk/Wallet-Native"><img src={Cv} title="Curriculum" alt="Curriculum"/></a></figure>
-                <figure><a href="https://github.com/Cristovk/Wallet-Native"><img src={Moonbank} title="Moonbank" alt="Moonbank"/></a></figure>
-                <figure><a href="https://github.com/Cristovk/Wallet-Native"><img src={Moonbank} title="Moonbank" alt="Moonbank"/></a></figure>
-                <figure><a href="https://github.com/Cristovk/Wallet-Native"><img src={Moonbank} title="Moonbank" alt="Moonbank"/></a></figure>
-                <figure><a href="https://github.com/Cristovk/Wallet-Native"><img src={Moonbank} title="Moonbank" alt="Moonbank"/></a></figure>
-                <figure><a href="https://github.com/Cristovk/Wallet-Native"><img src={Moonbank} title="Moonbank" alt="Moonbank"/></a></figure>
-                <figure><a href="https://github.com/Cristovk/Wallet-Native"><img src={Moonbank} title="Moonbank" alt="Moonbank"/></a></figure>
+                <figure><a target='blank' href="https://github.com/Cristovk/Wallet-Native"><img src={Moonbank} title="Moonbank" alt="Moonbank"/></a></figure>
+                <figure><a target='blank' href="https://github.com/Lismairy-Sanchez/Nasdrovia"><img src={Nasdrovia} title="Nasdrovia" alt="Nasdrovia"/></a></figure>
+                <figure><a target='blank' href="https://github.com/andres10sa/Fenix"><img src={Fenix} title="Fenix" alt="Fenix"/></a></figure>
+                <figure><a target='blank' href="https://github.com/Cristovk/Wallet-Native"><img src={Cv} title="Curriculum" alt="Curriculum"/></a></figure>
+                <figure><a target='blank' href="https://github.com/Cristovk/Wallet-Native"><img src={Moonbank} title="Moonbank" alt="Moonbank"/></a></figure>
+                <figure><a target='blank' href="https://github.com/Cristovk/Wallet-Native"><img src={Moonbank} title="Moonbank" alt="Moonbank"/></a></figure>
+                <figure><a target='blank' href="https://github.com/Cristovk/Wallet-Native"><img src={Moonbank} title="Moonbank" alt="Moonbank"/></a></figure>
+                <figure><a target='blank' href="https://github.com/Cristovk/Wallet-Native"><img src={Moonbank} title="Moonbank" alt="Moonbank"/></a></figure>
+                <figure><a target='blank' href="https://github.com/Cristovk/Wallet-Native"><img src={Moonbank} title="Moonbank" alt="Moonbank"/></a></figure>
+                <figure><a target='blank' href="https://github.com/Cristovk/Wallet-Native"><img src={Moonbank} title="Moonbank" alt="Moonbank"/></a></figure>
 
 
             </div>

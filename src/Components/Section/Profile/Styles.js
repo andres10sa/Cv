@@ -4,7 +4,7 @@ const General = styled.div`
   width: 65%;
   margin: auto;
   background: #fff;
-  box-shadow: 0px 0px 3px 2px rgba(255,255,255,.4);
+  box-shadow: 0px 0px 3px 2px rgba(0,0,0,.4);
   padding-bottom:30px;
   @media(max-width:768px){
     width: 96%;
