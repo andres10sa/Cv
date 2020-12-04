@@ -4,8 +4,8 @@ import styles from './Styles';
 const Menu = ({open,setOpen,currentItem,setCurrentItem}) => {
    const { Main } = styles;
    const [all,setAll]=useState(false);
-   const [components, setComponents] = useState(true);
-   const [source, setSource] = useState(true);
+   const [components, setComponents] = useState(false);
+   const [source, setSource] = useState(false);
    
    const arrowGeneral= all ? 'fas fa-chevron-down flecha' : 'fas fa-chevron-right flecha';
    const arrowComponents = components ? 'fas fa-chevron-down flecha' : 'fas fa-chevron-right flecha';
